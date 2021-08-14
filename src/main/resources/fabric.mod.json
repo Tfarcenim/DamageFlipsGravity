@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "damageflipsgravity",
   "version": "${version}",
 
   "name": "Example Mod",
@@ -14,16 +14,19 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/damageflipsgravity/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "tfar.damageflipsgravity.DamageFlipsGravity"
+    ],
+    "client": [
+      "tfar.damageflipsgravity.DamageFlipsGravity"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "damageflipsgravity.mixins.json"
   ],
 
   "depends": {

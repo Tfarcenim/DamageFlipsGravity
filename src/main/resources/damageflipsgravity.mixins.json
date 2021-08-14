@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tfar.damageflipsgravity.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "CameraAccess",
+    "EntityAccess",
+    "EntityMixin",
+    "GameRendererMixin",
+    "HumanoidModelMixin",
+    "LivingEntityMixin",
+    "LocalPlayerMixin",
+    "MouseHandlerMixin",
+    "PlayerMixin",
+    "PlayerRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
